@@ -1,0 +1,419 @@
+
+/* Start Main Rules */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.input-container{
+    position: relative;
+}
+
+.asterisk{
+    position: absolute;
+    font-size: 25px;
+    right: 20px;
+    top: 5px;
+    color: #e5711f;
+}
+
+.main-form .asterisk {
+    position: absolute;
+    font-size: 23px;
+    right: 30px;
+    top: 10px;
+    color: #e5711f;
+}
+
+.nice-message{
+    padding: 20px;
+    background-color: #222;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: #e5711f;
+    text-align: center;
+    border-left: 5px solid #e5711f;
+}
+
+h1{
+    font-size: 50px;
+	margin: 40px 0;
+	font-weight: bold;
+    color: #222;
+
+}
+
+/*Start Bootstap edits */
+
+.navbar{
+
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.navbar-brand {
+
+    font-size: 1em;
+}
+
+.nav>li>a, .navbar-brand {
+
+    padding: 15px 12px;
+}
+
+.navbar-inverse .navbar-nav >.open>a, 
+.navbar-inverse .navbar-nav >.open>a:hover, 
+.navbar-inverse .navbar-nav >.open> a:focus,
+.dropdown-menu {
+
+    color: #fff;
+    background-color: #e5711f;
+
+}
+
+.dropdown-menu{
+
+    min-width: 180px;
+    padding: 0;
+    font-size: 1em;
+    border: none;
+    border-radius: 0;
+
+}
+.dropdown-menu > li > a{
+
+    color: #222;
+    padding: 10px 15px;
+    
+}
+
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover{
+
+    color: #e5711f;
+    background-color: #222;
+    
+    
+}
+
+.form-control{
+    position: relative;
+}
+/*End Bootstrap edits*/
+
+/*Start Header Edits*/
+
+.upper-bar{
+    padding: 10px;
+    background-color: rgb(51, 51, 51);
+
+}
+
+.my-image{
+    width: 32px;
+    height: 32px;
+}
+.upper-bar .container{
+    color: #e5711f;
+}
+
+.upper-bar .links{
+    color: #e5711f;
+}
+/*End Header Edits*/
+
+
+/*Start Login Page edits*/
+
+.login-page form,
+.the-errors{
+	max-width: 380px;
+	margin: auto;
+}
+
+.login-page form input{
+	margin-bottom: 10px;
+}
+
+.login-page .selected{
+    color: #e5711f;
+}
+
+.login-page h1 span{
+    cursor: pointer;
+}
+
+.login-page .signup{
+    display: none;
+}
+
+.the-errors .msg {
+    padding: 10px;
+    text-align: left;
+    background-color: rgb(191, 189, 189);
+    margin-bottom: 8px;
+    border-right: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    color: #952828;
+}
+
+.the-errors .error {
+    border-left: 5px solid #952828;
+    border-radius: 5px;
+    
+}
+
+.login-page .btn-primary{
+    color: #222;
+    background-color: #e5711f;
+    border-color: #e5711f;
+}
+
+.login-page .btn-primary:hover{
+    background-color: #222;
+    border-color: #222;
+    color:#e5711f;
+    transition: 0.5s;
+}
+
+
+
+
+/*End Login Page edits*/
+
+
+
+/*Start Categories edits*/
+
+
+.item-box .price-tag{
+    padding: 2px 10px;
+    left: 0;
+    top: 10px;
+    font-weight: bold;
+    color: #222;
+    background-color: rgb(139, 139, 139);
+    position: absolute;
+}
+
+.item-box .caption p {
+	height: 44px;
+	max-height: 44px;
+}
+
+/*End Categories edits*/
+
+/*Start Profile edits*/
+
+.information{
+    margin-top: 20px;
+} 
+
+.information .edit-info{
+    margin-top: 20px;
+}
+.information ul{
+    margin: 0;
+    padding: 0;
+}
+
+.information ul li{
+    padding: 10px;
+}
+
+.information ul li:nth-child(odd){
+    background-color: #eee;
+}
+
+.information ul li span{
+    display: inline-block;
+    width: 130px;
+}
+
+.block .container{
+    border-color: #222;
+}
+.block .container .panel-heading{
+    background-color: #e5711f;
+    color: #222;
+    font-weight: bold;
+}
+
+/*End Profile edits*/
+
+.add-item-btn{
+    color: #222;
+    background-color: #e5711f;
+    border-color: #e5711f;
+}
+.add-item-btn:hover{
+    background-color: #222;
+    border-color: #222;
+    color:#e5711f;
+    transition: 0.5s;
+}
+
+.alert-error-item-form{
+
+    padding: 10px;
+    text-align: left;
+    background-color: rgb(191, 189, 189);
+    margin-bottom: 8px;
+    border-right: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    color: #952828;
+    border-left: 5px solid #952828;
+    border-radius: 5px;
+}
+
+.thumbnail .date{
+    text-align: right;
+    font-size: 13px;
+    font-weight: bold;
+    color: #222;
+}
+
+
+
+/*SHow item page*/
+
+.item-info h2 {
+	padding: 10px;
+	margin: 0;
+}
+
+.item-info ul li{
+    padding: 10px;
+
+}
+.item-info p{
+    padding: 10px;
+
+}
+
+.item-box .approve-status {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #222;
+    color: #e5711f;
+    font-weight: 600;
+    padding: 3px 5px;
+}
+
+.container .tag-items{
+    display: inline-block;
+    background-color: #f5bb34;
+    padding: 20x 10px;
+    border-radius: 5px;
+    color: #222;
+    margin-right: 5px;
+}
+
+.item-box .caption p {
+	height: 44px;
+	max-height: 44px;
+    
+}
+
+.item-box .caption h4{
+    height: 44px;
+	max-height: 44px;
+    margin-top: 30px;
+}
+
+.caption .date{
+    margin-top: 30px;
+}
+.item-error-msg{
+    width: 200px;
+    padding: 20px;
+    background-color: #222;
+    margin-left: 500px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: #e5711f;
+    text-align: center;
+    border-left: 5px solid #e5711f;
+}
+
+
+.item-info h2{
+    padding: 10px;
+    margin: 0;
+
+}
+
+.item-info ul li:nth-child(odd){
+    background-color: #eee;
+}
+
+.item-info ul li span{
+    display: inline-block;
+    width: 120px;
+}
+
+.add-comment h3{
+    margin: 0 0 10px;
+}
+
+.add-comment textarea{
+    display: block;
+    margin-bottom: 10px;
+    width: 500px;
+    height: 100px;
+}
+
+.add-comment .comment-area{
+    color: #222;
+    background-color: #e5711f;
+    border-color: #e5711f;
+}
+.add-comment .comment-area:hover{
+    background-color: #222;
+    border-color: #222;
+    color:#e5711f;
+    transition: 0.5s;
+}
+
+.comment-box{
+    margin-bottom: 20px;
+}
+
+.comment-box img{
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.comment-box .lead{
+    background-color: #eee;
+    position: relative;
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 25px;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: left;
+    background-color: #eee;
+    margin-bottom: 8px;
+    border-right: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    color: #222;
+    border-left: 5px solid #e5711f;
+    border-radius: 5px;
+}
+
+.custom-hr {
+	border-top: 1px solid #c9c9c9;
+}
+/*End SHow item page */

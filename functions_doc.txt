@@ -1,0 +1,10 @@
+====================================
+======== Functions Document ========
+====================================
+
+
+
+getAllFrom($field, $table, $where, $and = Null, $orederfield, $oredering)
+
+* $where = can be null
+* $and   = can be null
